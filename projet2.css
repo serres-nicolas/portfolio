@@ -94,9 +94,9 @@ nav ul li a {
   text-decoration: none;
 }
 
-a:hover {
-  background: #EBF4FA;
-  transition: .5s;
+nav ul li a:hover {
+  background: #e8e8e8;
+  transition: .3s;
 }
 
 .checkbtn {
@@ -272,4 +272,82 @@ ul{
 .logoo{
   display: inline-flex;
   padding: 0 11.6px;
+}
+.row-rectangle {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  column-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.main_title_project {
+  /*margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;*/
+  font-size: 30px;
+  color: #3D3C3A;
+  text-align: center;
+  width: 276px;
+  height:230px;
+  border-radius:20px;
+  background-color: #373F51;
+  text-decoration: none;
+}
+section a .main_title_project{
+  text-decoration: none;
+  z-index:2;
+  text-align: center;
+  color:white;
+}
+
+section a .main_title_project:hover{
+  text-decoration: none;
+  text-align:center;
+  visibility: visible;
+}
+
+section .button_project:hover{
+  /*background:rgba(233, 233, 233, 0.2);*/
+  transition: .5s;
+  border-radius: 20px;
+  text-decoration: none;
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  color:red;
+  visibility: visible;
+}
+section .button_project{
+  text-decoration: none;
+}
+
+section a h4 .python_svg{
+  fill: #d0ccd0;
+  width:50%;
+  z-index: 1;
+}
+section a h4 .python_svg:hover{
+  fill: #d0ccd0;
+  width:50%;
+  opacity:0.3;
+}
+section a h4 .appli{
+  text-decoration: none;
+  text-align:center;
+  color:blue;
+  opacity:0.3;
+  visibility: hidden;
+
+}
+section a:hover h4 .appli{
+  text-decoration: none;
+  text-align:center;
+  color:#D0CCD0;
+  z-index:2;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.2s linear;
 }

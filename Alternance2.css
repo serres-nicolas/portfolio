@@ -79,7 +79,8 @@ label.logo {
   color: #3D3C3A;
   font-size: 35px;
   line-height: 80px;
-  padding: 0 100px;
+  padding: 0;
+  padding-left: 100px;
   font-weight: bold;
 }
 

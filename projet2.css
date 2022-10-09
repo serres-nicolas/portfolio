@@ -334,9 +334,9 @@ section a h4 .python_svg:hover{
 section a h4 .appli{
   text-decoration: none;
   text-align:center;
-  color:blue;
+  color:#d0ccd0;
   opacity:0.3;
-  visibility: hidden;
+  font-size:22px;
 
 }
 section a:hover h4 .appli{

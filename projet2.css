@@ -37,7 +37,7 @@
 }
 
 .p_main_title_text{
-  text-align: justify;
+  text-align: center;
 }
 
 .title {
@@ -286,10 +286,6 @@ ul{
 }
 
 .main_title_project {
-  /*margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-top: 20px;*/
   font-size: 30px;
   color: #3D3C3A;
   text-align: center;
@@ -313,7 +309,6 @@ section a .main_title_project:hover{
 }
 
 section .button_project:hover{
-  /*background:rgba(233, 233, 233, 0.2);*/
   transition: .5s;
   border-radius: 20px;
   text-decoration: none;
@@ -352,4 +347,23 @@ section a:hover h4 .appli{
   visibility: visible;
   opacity: 1;
   transition: opacity 0.2s linear;
+}
+.footer_c{
+  font-style:italic;
+  font-size:13px;
+}
+.container_footer{
+ display:flex;
+ flex-direction:row;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+}
+footer .container_footer .footer_pl{
+padding:10px;
+margin-top:30px;
+}
+footer .container_footer .footer_pr{
+padding:10px;
+margin-top:30px;
 }

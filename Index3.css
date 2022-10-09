@@ -37,7 +37,7 @@
 }
 
 .p_main_title_text{
-  text-align: justify;
+  text-align: center;
 }
 
 .title {
@@ -236,14 +236,14 @@ body {
   flex-basis: 100%;
   display:flex;
   justify-content: center;
-  color:#3d3c3a81;
+  color:#3D3C3A;
 }
 .item4{
   padding-top:10px;
   flex-basis: 100%;
   display:flex;
   justify-content: center;
-  color:#3d3c3a81;
+  color:#3D3C3A;
   border-bottom-width: 10px;
   border-bottom: solid;
   border-bottom-color: white;
@@ -273,4 +273,23 @@ ul{
 .logoo{
   display: inline-flex;
   padding: 0 11.6px;
+}
+.footer_c{
+  font-style:italic;
+  font-size:13px;
+}
+.container_footer{
+ display:flex;
+ flex-direction:row;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+}
+footer .container_footer .footer_pl{
+padding:10px;
+margin-top:30px;
+}
+footer .container_footer .footer_pr{
+padding:10px;
+margin-top:30px;
 }
